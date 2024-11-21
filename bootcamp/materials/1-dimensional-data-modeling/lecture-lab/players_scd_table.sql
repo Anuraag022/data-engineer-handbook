@@ -6,6 +6,6 @@ create table players_scd_table
 	start_season integer,
 	end_date integer,
 	current_season INTEGER,
-	PRIMARY KEY(player_name, current_season)
+	PRIMARY KEY(player_name, start_season)
 );
 
