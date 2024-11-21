@@ -5,6 +5,7 @@ create table players_scd_table
 	is_active boolean,
 	start_season integer,
 	end_date integer,
-	current_season INTEGER
+	current_season INTEGER,
+	PRIMARY KEY(player_name, current_season)
 );
 
